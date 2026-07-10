@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diwashna | Portfolio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0d1117;
+color:white;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:#161b22;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+nav h2{
+color:#00e5ff;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:30px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:white;
+font-weight:bold;
+transition:.3s;
+}
+
+nav ul li a:hover{
+color:#00e5ff;
+}
+
+.hero{
+display:flex;
+justify-content:center;
+align-items:center;
+flex-wrap:wrap;
+padding:60px 8%;
+min-height:90vh;
+}
+
+.hero-text{
+flex:1;
+min-width:300px;
+}
+
+.hero-text h1{
+font-size:50px;
+margin-bottom:15px;
+}
+
+.hero-text h1 span{
+color:#00e5ff;
+}
+
+.hero-text h2{
+font-size:28px;
+height:40px;
+color:#00e5ff;
+margin-bottom:15px;
+}
+
+.hero-text p{
+font-size:18px;
+line-height:1.7;
+margin-bottom:25px;
+color:#ddd;
+}
+
+.btn{
+display:inline-block;
+padding:14px 30px;
+background:#00e5ff;
+color:black;
+font-weight:bold;
+text-decoration:none;
+border-radius:30px;
+transition:.3s;
+box-shadow:0 0 20px #00e5ff;
+}
+
+.btn:hover{
+transform:scale(1.1);
+}
+
+.hero-img{
+flex:1;
+text-align:center;
+min-width:300px;
+}
+
+.hero-img img{
+width:320px;
+height:420px;
+object-fit:cover;
+border-radius:20px;
+border:5px solid #00e5ff;
+box-shadow:0 0 30px #00e5ff;
+}
+
+section{
+padding:80px 8%;
+}
+
+.title{
+text-align:center;
+font-size:40px;
+margin-bottom:50px;
+color:#00e5ff;
+}
+
+.about{
+display:flex;
+justify-content:center;
+}
+
+.about-box{
+background:#161b22;
+padding:30px;
+border-radius:20px;
+max-width:850px;
+line-height:1.8;
+font-size:18px;
+box-shadow:0 0 20px rgba(0,229,255,.3);
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:20px;
+}
+
+.skill{
+background:#161b22;
+padding:25px;
+text-align:center;
+border-radius:15px;
+transition:.4s;
+}
+
+.skill:hover{
+background:#00e5ff;
+color:black;
+transform:translateY(-10px);
+}
+
+.contact{
+text-align:center;
+}
+
+.contact p{
+font-size:18px;
+margin:15px 0;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#161b22;
+margin-top:50px;
+}
+
+@media(max-width:768px){
+
+.hero{
+flex-direction:column-reverse;
+text-align:center;
+}
+
+.hero-text h1{
+font-size:38px;
+}
+
+.hero-img img{
+width:260px;
+height:340px;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<h2>Portfolio</h2>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+<section class="hero" id="home">
+
+<div class="hero-text">
+
+<h1>Hello, I'm <span>Diwashna</span></h1>
+
+<h2 id="typing"></h2>
+
+<p>
+I'm a Computer Science Engineering student passionate about
+Cyber Security, Artificial Intelligence, Data Analysis and
+Web Development. I enjoy learning new technologies and
+creating beautiful, user-friendly websites.
+</p>
+
+<a href="#about" class="btn">Know More</a>
+
+</div>
+
+<div class="hero-img">
+<img src="c:\Users\Owner\OneDrive\Desktop\passport size photo.jpeg">
+</div>
+
+</section>
+
+<section id="about">
+
+<h1 class="title">About Me</h1>
+
+<div class="about">
+
+<div class="about-box">
+
+Hello! My name is <b>Diwashna Khatiwada</b>.
+I am a B.Tech Computer Science Engineering student who loves
+technology and creativity. I enjoy designing websites,
+learning programming languages, exploring Cyber Security,
+Artificial Intelligence, and solving real-world problems
+through technology.
+
+Apart from coding, I love music, traveling, taking aesthetic
+photographs, and reading mystery books. My goal is to become
+a successful software engineer and build innovative projects
+that make people's lives easier.
+
+</div>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h1 class="title">Skills</h1>
+
+<div class="skills">
+
+<div class="skill">HTML</div>
+
+<div class="skill">CSS</div>
+
+<div class="skill">JavaScript</div>
+
+<div class="skill">Python</div>
+
+<div class="skill">Java</div>
+
+<div class="skill">Cyber Security</div>
+
+<div class="skill">Artificial Intelligence</div>
+
+<div class="skill">Data Analysis</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h1 class="title">Contact</h1>
+
+<div class="contact">
+
+<p>📧 diwashnakhatiwada01@gmail.com</p>
+
+<p>📱 +91-9717469902</p>
+
+<p>📍 India / Nepal</p>
+
+<a class="btn" href="c:\Users\Owner\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\38BD00C5C9B8FEADA5DF5ED06508FC65A134BE1D\transfers\2026-28\diwashna_resume.pdf">Download Resume</a>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Diwashna Khatiwada | Portfolio
+
+</footer>
+
+<script>
+
+const words=[
+"Computer Science Student",
+"Cyber Security Enthusiast",
+"AI Learner",
+"Web Developer",
+"Creative Thinker"
+];
+
+let wordIndex=0;
+let charIndex=0;
+let currentWord="";
+let isDeleting=false;
+
+function type(){
+
+currentWord=words[wordIndex];
+
+if(isDeleting){
+
+charIndex--;
+
+}else{
+
+charIndex++;
+
+}
+
+document.getElementById("typing").textContent=currentWord.substring(0,charIndex);
+
+let speed=120;
+
+if(!isDeleting && charIndex===currentWord.length){
+
+speed=1800;
+isDeleting=true;
+
+}
+
+else if(isDeleting && charIndex===0){
+
+isDeleting=false;
+wordIndex=(wordIndex+1)%words.length;
+speed=400;
+
+}
+
+setTimeout(type,speed);
+
+}
+
+type();
+
+</script>
+
+</body>
+</html>
